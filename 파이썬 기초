@@ -6,9 +6,17 @@ print("5//2",5//2)
 #/로 연산시 2.5
 #//로 연산시 소수점 떼버림
 
+
+
+
+
 #제곱 연산자
 print("5**2",5**2)
 #5의 제곱인 25출력
+
+
+
+
 
 #input()함수
 str=input("입력>")
@@ -20,3 +28,28 @@ print("자료:",str)
 print("자료형:",type(str))
 #출력 <class 'str'>
 #뭘 입력해도 input 자료형은 string
+
+
+
+
+
+#문자열 format함수
+output_a="{:5d}".format(52)
+output_b="{:+5d}".format(52)
+output_c="{:=+5d}".format(52)
+output_d="{:=+5d}".format(-52)
+
+print(output_a)
+print(output_b)
+print(output_c)
+print(output_d)
+
+#결과
+   52  #{:5d}_5칸 띄우고 뒤에서 숫자 넣기
+  +52  #{:+5d}_5칸 띄우고 뒤에서 숫자 넣기, 부호 넣기
++  52  #{:=+5d}_5칸 띄우고 뒤에서 숫자 넣기, 부호 앞에 넣기(=)
+-  52  #위랑 동일, 매개변수가 -52이므로 부호가 -
+
+
+
+
